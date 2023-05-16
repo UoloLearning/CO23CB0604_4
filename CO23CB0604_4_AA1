@@ -1,1 +1,15 @@
 
+print("Hey! Welcome to the quiz")
+print("You will get 3 chances to guess the answer")
+chances = 3
+print(" RIDDLE: The more you take, the more you leave behind. What are they?")
+answer = "footsteps"
+while(chances>0):
+    guess = input("enter the answer: ")
+    guess = guess.lower()
+    if(guess == answer):
+        print("Correct Answer!")
+        chances= 0
+    else:
+        print("Wrong Answer ,Try again ")
+        chances += 1
