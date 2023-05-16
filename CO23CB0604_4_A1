@@ -1,0 +1,9 @@
+#Using For Loop
+for i in "String":
+     print(i)
+#Using While Loop
+Str_value = "String"
+i=0;
+while(i < len(Str_value)):
+    print(Str_value[i])
+    i=i+1
